@@ -66,7 +66,7 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('📥 New Movies 📥', url='https://t.me/Movie_Arcade'),
+                        InlineKeyboardButton('📌 New Movies 📌', url='https://t.me/ngc_new_database_1'),
         
                     ]
                     ]
@@ -82,7 +82,7 @@ async def start(bot, cmd):
         invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**Please Join My Updates Channel to use this Bot!,താഴെ കാണുന്ന ചാനലിൽ ജോയിൻ ചെയ്താലേ ഫയൽ കിട്ടത്തൊള്ളൂ☺️**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -92,18 +92,18 @@ async def start(bot, cmd):
             )
         )
     else:
-     await cmd.reply_photo(photo='https://telegra.ph/file/d024c5f4b32f2fc9371eb.jpg', caption=START_MSG.format(cmd.from_user.mention),
+     await cmd.reply_photo(photo='https://telegra.ph/file/305c02e7c1d5e758d11d7.jpg', caption=START_MSG.format(cmd.from_user.mention),
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("➕️ ADD ME TO YOU GROUP ➕️", url="https://t.me/Ma_autofilterbot?startgroup=true")
+                        InlineKeyboardButton("➕️ ADD ME TO YOU GROUP ➕️", url="https://t.me/ngc_filter4_bot?startgroup=true")
                      ],
                     [
-                        InlineKeyboardButton("❗️ Search Here ❗️", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Dev 🔥", url="https://t.me/Jinn_007")
+                        InlineKeyboardButton("📌 Search Here 📌", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("My Boss 😎", url="https://t.me/Unavailable4allTime")
                     ],
                     [
-                        InlineKeyboardButton("📥 How To Use Me 📥", url="https://t.me/arcade_links/12")
+                        InlineKeyboardButton("✨Join Our Updates Channel✨", url="https://t.me/ngc_ott_updates")
                     ]
                 ]
             )
@@ -196,4 +196,4 @@ async def bot_info(bot, message):
             InlineKeyboardButton('🔐 CLOSE', callback_data='close')
         ]
         ]
-    await message.reply(text="<b>Developer : <a href='https://t.me/Jinn_007'>꧁Ⓜⓤⓣⓗⓐⓛⓘⓑ_★࿐</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="<b>Developer : <a href='https://t.me/Unavailable4allTime'>☫𝐴𝑆𝐻𝐼𝐾彡</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
