@@ -27,7 +27,7 @@ async def start(bot, cmd):
                 ident, file_id = cmd.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=cmd.from_user.id,
-                    text="**Please Join My Updates Channel to use this Bot!**",
+                    text="**Please Join My Updates Channel to use this Bot!,ഈ ചാനലിൽ ജോയിൻ ചെയ്ത ശേഷം ഒന്നൂടെ സ്റ്റാർട്ട് നെക്ക് എങ്കിലേ file കിട്ടു...**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
@@ -99,7 +99,7 @@ async def start(bot, cmd):
                         InlineKeyboardButton("𝙉𝙀𝙒𝙂𝙀𝙉 𝘾𝙄𝙉𝙀𝙈𝘼𝙕𝙕𝙕™", url="https://t.me/newgen_cinemazzz")
                      ],
                     [
-                        InlineKeyboardButton("📌 Search Here 📌", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("🔍 Search Here 🔎", switch_inline_query_current_chat=''),
                         InlineKeyboardButton("My Boss 😎", url="https://t.me/Unavailable4allTime")
                     ],
                     [
