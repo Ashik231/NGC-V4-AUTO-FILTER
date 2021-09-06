@@ -96,7 +96,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("➕️ ADD ME TO YOU GROUP ➕️", url="https://t.me/ngc_filter4_bot?startgroup=true")
+                        InlineKeyboardButton("𝙉𝙀𝙒𝙂𝙀𝙉 𝘾𝙄𝙉𝙀𝙈𝘼𝙕𝙕𝙕™", url="https://t.me/newgen_cinemazzz")
                      ],
                     [
                         InlineKeyboardButton("📌 Search Here 📌", switch_inline_query_current_chat=''),
