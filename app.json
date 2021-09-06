@@ -14,8 +14,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/abdullaalmuthalib/Media-Search-bot",
-    "repository": "https://github.com/abdullaalmuthalib/Media-Search-bot",
+    "website": "https://github.com/Ashik231/NGC-V4-AUTO-FILTER",
+    "repository": "https://github.com/Ashik231/NGC-V4-AUTO-FILTER",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
