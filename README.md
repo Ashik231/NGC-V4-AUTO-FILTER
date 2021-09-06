@@ -1,7 +1,8 @@
-# Modified Version Of [Media Search bot](https://github.com/Mahesh0253/Media-Search-bot)
-
+# Officially made for [Newgen_cinemazzz](https://t.me/newgen_cinemazzz)
+# Made By Ashik Mhd Opa
+# Only For NewGen_cinemazzz
 ## Added Features
-* Imdb posters for autofilter.
+* Imdb posters for autofilter,with Imdb rating.
 * Custom captions for your files.
 * Index command to index all the files in a given channel (No USER_SESSION Required).
 * Ability to Index Public Channels without being admin.
@@ -13,7 +14,7 @@
 ## Installation
 
 ### Easy Way
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/abdullaalmuthalib/Media-Search-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ashik231/NGC-V4-AUTO-FILTER)
 ### Hard Way
 
 ```bash
@@ -76,13 +77,13 @@ logger - Get log file
 
 ## Thanks to 
 * [Pyrogram](https://github.com/pyrogram/pyrogram)
-* Original [Repo](https://github.com/Mahesh0253/Media-Search-bot)
+* Original [Repo](https://github.com/Ashik231/NGC-V4-AUTO-FILTER)
 
 
 ## Support
-Contact Me On [Telegram](https://t.me/subinps_bot)
+Contact Me On [Telegram](https://t.me/Unavailable4allTime)
 
-[Update Channel](https://t.me/subin_works)
+[Update Channel](http://t.me/Unavailable4allTime)
 
 ## License
 Code released under [The GNU General Public License](LICENSE).
