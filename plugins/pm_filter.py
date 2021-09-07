@@ -29,7 +29,7 @@ async def filter(client, message):
             if user.status == "kicked":
                 await client.send_message(
                     chat_id=message.from_user.id,
-                    text="Sorry Sir, You are Banned to use me.",
+                    text="Sorry Machane, You are Banned to use me.",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -123,7 +123,7 @@ async def group(client, message):
         btn = []
 
         search = message.text
-        result_txt = f"**🗂️ Title:** {search}\n**⭐ Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n**©️ {message.chat.title} 📌\n**📤 Uploaded by:** {@newgen_cinemazzz}**"
+        result_txt = f"**🗂️ Title:** {search}\n**⭐ Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n**📤 Uploaded by {message.chat.title} 📌**"
 
         nyva=BOT.get("username")
         if not nyva:
