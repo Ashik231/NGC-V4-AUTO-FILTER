@@ -27,14 +27,15 @@ async def start(bot, cmd):
                 ident, file_id = cmd.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=cmd.from_user.id,
-                    text="**Please Join My Updates Channel to use this Bot!,ഈ ചാനലിൽ ജോയിൻ ചെയ്ത ശേഷം ഒന്നൂടെ സ്റ്റാർട്ട് നെക്ക് എങ്കിലേ file കിട്ടു...**",
+                    text="**നിങ്ങൾക്ക് മൂവീസ് വേണോ? എങ്കിൽ താഴെ കാണുന്ന ഞങ്ങളുടെ 'Movie News' ചാനലിൽ ജോയിൻ ചെയ്യുക.🙂
+എന്നിട്ട് Try Again ബട്ടൺ ക്ലിക്ക് ചെയ്യ്, അപ്പൊ file കിട്ടും...!😁**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("❗️ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ❗️", url=invite_link.invite_link)
+                                InlineKeyboardButton("⭐ Movie News ⭐", url=invite_link.invite_link)
                             ],
                             [
-                                InlineKeyboardButton("😊  ᴛʀʏ ᴀɢᴀɪɴ", callback_data=f"checksub#{file_id}")
+                                InlineKeyboardButton("🔄 ᴛʀʏ ᴀɢᴀɪɴ 🔄", callback_data=f"checksub#{file_id}")
                             ]
                         ]
                     ),
@@ -82,11 +83,12 @@ async def start(bot, cmd):
         invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!,താഴെ കാണുന്ന ചാനലിൽ ജോയിൻ ചെയ്താലേ ഫയൽ കിട്ടത്തൊള്ളൂ☺️**",
+            text="**നിങ്ങൾക്ക് മൂവീസ് വേണോ? എങ്കിൽ താഴെ കാണുന്ന ഞങ്ങളുടെ 'Movie News' ചാനലിൽ ജോയിൻ ചെയ്യുക.🙂
+എന്നിട്ട് Try Again ബട്ടൺ ക്ലിക്ക് ചെയ്യ്, അപ്പൊ file കിട്ടും...!😁**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("❗️ Join Updates Channel ❗️", url=invite_link.invite_link)
+                        InlineKeyboardButton("⭐ Movie News ⭐", url=invite_link.invite_link)
                     ]
                 ]
             )
