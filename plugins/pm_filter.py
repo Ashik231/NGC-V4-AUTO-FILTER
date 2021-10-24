@@ -123,7 +123,7 @@ async def group(client, message):
         btn = []
 
         search = message.text
-        result_txt = f"**🗂️ Title:** {search}\n**⭐ Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n**📤 Uploaded by {message.chat.title} 📌**"
+        result_txt = f"**📂 Title:** {search}\n**⭐ Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n**📤 Uploaded by {message.chat.title} 📌**"
 
         nyva=BOT.get("username")
         if not nyva:
@@ -311,8 +311,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('New Releases', url='https://t.me/ngc_new_database_1'),
-                        InlineKeyboardButton('Movie Updates', url='https://t.me/ngc_ott_updates')
+                        InlineKeyboardButton('New Releases📌', url='https://t.me/ngc_new_database_1'),
+                        InlineKeyboardButton('Movie Updates📌', url='https://t.me/ngc_ott_updates')
                     ]
                     ]
                 
@@ -325,7 +325,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     )
         elif query.data.startswith("checksub"):
             if AUTH_CHANNEL and not await is_subscribed(client, query):
-                await query.answer("I Like Your Smartness, But Don't Be Oversmart 😒",show_alert=True)
+                await query.answer("ആദ്യം ആ ചാനലിൽ ഒന്നു ജോയിൻ ആക്‌, എന്നിട് വീണ്ടും നെക്ക്...Don't be over smart😶",show_alert=True)
                 return
             ident, file_id = query.data.split("#")
             filedetails = await get_file_details(file_id)
